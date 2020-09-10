@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  v2-vuejs:
+    tty: true
+    build: .
+    working_dir: "/home/projetos/platafoor-v2-vuejs"
+    container_name: v2-vuejs
+    ports: 
+      - "8080:8080"
+    volumes: 
+      - ./platafoor-v2-vuejs:/home/projetos/platafoor-v2-vuejs 
+    command: >
+      bash -c "cp -R  /home/projetos/dependencies/node_modules  /home/projetos/platafoor-v2-vuejs
+      && npm run dev"
