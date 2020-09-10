@@ -1,6 +1,6 @@
 <h2> requisitos</h2>
    <ul>
-      <li> baixar o projeto platafoor-v2 </li>
+      <li> baixar o projeto platafoor-v2 na raiz do projeto </li>
    </ul>
 <h2> Comandos uteis </h2>
 
