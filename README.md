@@ -1,4 +1,8 @@
-<h1> Comandos uteis </h1>
+<h2> requisitos</h2>
+   <ul>
+      <li> baixar o projeto platafoor-v2 </li>
+   </ul>
+<h2> Comandos uteis </h2>
 
 <ul>
   <li> <b>docker-compose up -d --build </b> (sobe o container) </li>
