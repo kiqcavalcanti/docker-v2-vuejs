@@ -11,5 +11,6 @@ services:
     volumes: 
       - ./platafoor-v2-vuejs:/home/projetos/platafoor-v2-vuejs 
     command: >
-      bash -c "cp -R  /home/projetos/dependencies/node_modules  /home/projetos/platafoor-v2-vuejs
+      bash -c "
+      npm install
       && npm run dev"
